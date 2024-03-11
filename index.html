@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Lavagem de Veículos</title>
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="veiculo-container">
+        <div class="veiculo-header">
+          <span>Registro de Veículos</span>
+          <button id="novo">Incluir</button>
+        </div>
+    
+        <div class="tabela">
+          <table>
+            <thead>
+              <tr>
+                <th>Proprietário</th>
+                <th>Modelo</th>
+                <th>Placa</th>
+                <th>Lavagem</th>
+                <th class="acaoEditar">Editar</th>
+                <th class="acaoExcluir">Excluir</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+    
+        <div class="janela-veiculo-container">
+          <div class="janela-veiculo">
+            <form>
+              <label for="proprietario">Nome do Proprietário</label>
+              <input id="proprietario" type="text"  />
+      
+              <label for="modelo">Modelo do Veículo</label>
+              <input id="modelo" type="text"  />
+    
+              <label for="placa">Placa do Veículo</label>
+              <input id="placa" type="text"  />
+    
+              <label for="lavagem">Tipo de Lavagem</label>
+              <input id="lavagem" type="text"  />
+              
+              <button id="btnGravar">Salvar</button>
+            </form>
+          </div>
+        </div>
+    
+      </div>
+
+    <script src="/JavaScript/main.js"></script>
+</body>
+</html>
